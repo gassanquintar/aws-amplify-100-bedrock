@@ -1,0 +1,6 @@
+[
+  {
+    "Action": ["bedrock:*"],
+    "Resource": ["arn:aws:bedrock:us-east-1::*"]
+  }
+]

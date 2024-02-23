@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iabedrocksandbox-dev-192718-authRole",
+      "UnauthRoleArn": "arn:aws:iam::260962981112:role/amplify-iabedrocksandbox-dev-192718-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::260962981112:role/amplify-iabedrocksandbox-dev-192718-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-iabedrocksandbox-dev-192718-deployment",
+      "UnauthRoleName": "amplify-iabedrocksandbox-dev-192718-unauthRole",
+      "StackName": "amplify-iabedrocksandbox-dev-192718",
+      "StackId": "arn:aws:cloudformation:us-east-1:260962981112:stack/amplify-iabedrocksandbox-dev-192718/2ef3a7e0-d279-11ee-8a79-129873b317af",
+      "AmplifyAppId": "dyj3ff6ltau6b",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-iabedrocksandbox-dev-192718-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "iabedrocksandbox222fcd98": {}
+      },
+      "function": {
+        "bedrockFunction": {
+          "deploymentBucketName": "amplify-iabedrocksandbox-dev-192718-deployment",
+          "s3Key": "amplify-builds/bedrockFunction-30416f2f4b6d345a6c38-build.zip"
+        }
+      },
+      "api": {
+        "chatApi": {}
+      }
+    }
+  }
+}

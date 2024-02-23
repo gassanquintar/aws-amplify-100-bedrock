@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/chat": {
+      "name": "/chat",
+      "lambdaFunction": "bedrockFunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create"
+        ]
+      }
+    }
+  }
+}
