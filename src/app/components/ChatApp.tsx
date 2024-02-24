@@ -6,6 +6,7 @@ import {
   AlertTitle,
   Backdrop,
   Box,
+  Button,
   CircularProgress,
   TextField,
   styled,
@@ -118,7 +119,7 @@ const ChatApp: React.FC = () => {
             <StyledTextField
               id='chat-input'
               placeholder={
-                loading ? 'Waiting a response...' : 'Type a message...'
+                loading ? 'waiting for a response...' : 'Type a message...'
               }
               fullWidth
               disabled={loading}

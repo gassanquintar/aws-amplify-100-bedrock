@@ -3,8 +3,9 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import { signOut, getCurrentUser } from 'aws-amplify/auth';
-import { IconButton, Menu, MenuItem } from '@mui/material';
+import { Button, IconButton, Menu, MenuItem } from '@mui/material';
 import { AccountCircle } from '@mui/icons-material';
+import RefreshIcon from '@mui/icons-material/Refresh';
 
 const ChatAppBar: React.FC = () => {
   const [userName, setUserName] = React.useState<string>('');
@@ -43,6 +44,13 @@ const ChatAppBar: React.FC = () => {
         <Toolbar className='bg-[#171717] flex justify-end'>
           {userName && (
             <>
+              <Button
+                variant='outlined'
+                color='warning'
+                onClick={() => window.location.reload()}
+                startIcon={<RefreshIcon />}>
+                Reset
+              </Button>
               <Box>
                 <IconButton
                   size='large'
