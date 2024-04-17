@@ -38,9 +38,6 @@ const ChatAppBar: React.FC = () => {
     setUserName(signInDetails?.loginId || '');
   });
 
-  React.useEffect(() => {
-    !userName && handleSignOut();
-  }, [userName]);
 
   return (
     <Box sx={{ flexGrow: 1 }}>
